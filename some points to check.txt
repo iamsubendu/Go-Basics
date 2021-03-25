@@ -1,0 +1,12 @@
+after running 
+=>go run main.go
+
+we can check the results by using other terminal by using command
+=> curl localhost:3000
+
+if it doesn't work than try 
+curl http://localhost:3000
+
+
+
+//Go is a compiled language

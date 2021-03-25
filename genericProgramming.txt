@@ -1,0 +1,10 @@
+Generic programming is a style of computer programming in which 
+algorithms are written in terms of types to-be-specified-later 
+that are then instantiated when needed for specific types provided 
+as parameters.
+
+interface types in Go are a form of generic programming. 
+They let us capture the common aspects of different types 
+and express them as methods. We can then write functions that 
+use those interface types, and those functions will work for 
+any type that implements those methods.
